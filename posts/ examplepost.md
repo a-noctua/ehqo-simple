@@ -8,6 +8,14 @@ layout: layouts/post.njk
 ---
 # Hello World
 
+::: info
+This is an info box with useful information.
+:::
+
+::: warning
+This is a warning message!
+:::
+
 This is a test post
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -32,4 +40,4 @@ corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
 quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
 voluptas nulla pariatur?[^1]
 
-[^1] Test
+[^1]: Test

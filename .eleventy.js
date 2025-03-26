@@ -3,6 +3,9 @@ const fs = require("fs");
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItFootnote = require("markdown-it-footnote");
+const markdownItAttrs = require("markdown-it-attrs");
+const markdownItContainer = require("markdown-it-container");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -63,7 +66,9 @@ module.exports = function(eleventyConfig) {
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
     html: true,
-    linkify: true
+    breaks: false,
+    linkify: true,
+    typographer: true
   }).use(markdownItAnchor, {
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: "after",
@@ -72,7 +77,21 @@ module.exports = function(eleventyConfig) {
     }),
     level: [1,2,3,4],
     slugify: eleventyConfig.getFilter("slugify")
-  });
+  })
+  .use(markdownItFootnote)
+  .use(markdownItAttrs)
+  .use(markdownItContainer, 'info')
+  .use(markdownItContainer, 'warning');
+  
+  // Optional: Customize footnote rendering if needed
+  markdownLibrary.renderer.rules.footnote_caption = (tokens, idx) => {
+    let n = Number(tokens[idx].meta.id + 1).toString();
+    if (tokens[idx].meta.subId > 0) {
+      n += ":" + tokens[idx].meta.subId;
+    }
+    return n;
+  };
+  
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)
@@ -111,9 +130,9 @@ module.exports = function(eleventyConfig) {
 
     // -----------------------------------------------------------------
     // If your site deploys to a subdirectory, change `pathPrefix`.
-    // Don’t worry about leading and trailing slashes, we normalize these.
+    // Don't worry about leading and trailing slashes, we normalize these.
 
-    // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
+    // If you don't have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for link URLs (it does not affect your file structure)
     // Best paired with the `url` filter: https://www.11ty.dev/docs/filters/url/
 
