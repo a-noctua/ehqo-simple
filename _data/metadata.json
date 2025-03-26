@@ -1,0 +1,21 @@
+{
+  "title": "Ehqo's Outpost",
+  "url": "https://ehqo.net/",
+  "language": "en",
+  "description": "A website by Ehqo",
+  "feed": {
+    "subtitle": "A blog by Ehqo",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://ehqo.net"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://ehqo.net/feed/feed.json"
+  },
+  "author": {
+    "name": "Ehqo",
+    "email": "ehqo@omg.lol",
+    "url": "https://ehqo.net/about-me/"
+  }
+}
