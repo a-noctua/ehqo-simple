@@ -18,25 +18,17 @@
 
 <body>
   <header>
-    {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-    <nav>
-        {%- for entry in collections.all | eleventyNavigation %}
-        <a href="{{ entry.url | url }}">{{
-            entry.title }}</a>
-        {%- endfor %}
-    </nav>
 
-    <h1>{%- if title %}{{ title }}{%- else %}{{ metadata.title }}{%- endif %}</h1>
-    <p>{% if description %}{{ description }}{% endif %}</p>
+    {% include "partials/_nav.njk" %}
+
+
   </header>
 
   <main>
     {{ content | safe }}
   </main>
 
-  <footer>
-  <p>Made with ♡ by Ehqo</p>
-  </footer>
+  {% include "partials/_footer.njk" %}
 
   <!-- Current page: {{ page.url | url }} -->
 </body>

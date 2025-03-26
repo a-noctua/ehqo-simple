@@ -1,0 +1,18 @@
+<ul class="post-list">
+  {% for post in postslist | reverse %}
+    <li>
+      <a href="{{ post.url | url }}" class="post-title">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+      <div class="post-meta-container">
+        <time class="post-meta" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+        {% if post.data.tags | filterTagList | length %}
+          <div class="post-tags">
+          {% for tag in post.data.tags | filterTagList %}
+            {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+          {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+  </ul>

@@ -11,10 +11,10 @@ eleventyNavigation:
 This is my personal website. It acts as my digital garden as I explore the web.
 
 {% set maxPosts = collections.posts.length | min(3) %}
-<h4>Some {% if maxPosts == 1 %}stuff{% else %}{{ maxPosts }} things{% endif %} I've been writing:</h4>
+<h6>Some things I've been thinking about:</h6>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+{% include "partials/postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
