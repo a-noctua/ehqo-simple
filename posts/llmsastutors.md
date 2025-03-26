@@ -1,8 +1,10 @@
 ---
 title: LLMs as Tutors
 description: A brief exploration of LLMs as customized tutors and learning partners
-tags: ['learning', 'tools', 'ai']
+tags: ['learning', 'tools']
 date: 2024-03-09
+permalink: posts/llmsastutors/
+layout: layouts/post.njk
 ---
 
 ### This is not a grift, I promise lol

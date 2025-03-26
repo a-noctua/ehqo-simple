@@ -3,6 +3,8 @@ title: My 2024 App Defaults
 description: An evergreen list of the apps that I use (almost) every day
 tags: ['tools', 'changelog']
 date: 2024-03-04
+permalink: posts/appdefaults/
+layout: layouts/post.njk
 ---
 
 Shortly after creating my omg.lol account at the tail end of 2023, I came across Robb Knight's post - [Hemispheric Views - App Defaults](https://defaults.rknight.me/). Inspired by the countless folks who contributed, I figured I would throw my hat in the ring.

@@ -3,6 +3,8 @@ title: My New Home Online
 description: I finally settle into my new, permanent home online
 tags:
 date: 2024-03-04
+permalink: posts/mynewhome/
+layout: layouts/post.njk
 ---
 
 Well, I think I’m finally home. If you’ve been following along on [Mastodon](https://social.lol/@ehqo), Discord, or the other places I talk online, you’ve seen me try out a swath of blogging platforms and hosts like [Weblog](https://weblog.lol/), [Bearblog](https://bearblog.dev/), and [Scribbles](https://scribbles.page/).  In my usual fashion, I’ve spent alot of time thinking about how to best do something, rather than actually doing the thing. The ‘thing’ in this case is writing. 

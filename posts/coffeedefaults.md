@@ -3,6 +3,8 @@ title: My Coffee Defaults
 description: My daily coffee-making kit
 tags: ['coffee', 'changelog']
 date: 2024-04-19
+permalink: posts/coffee-defaults/
+laytout: layouts/post.njk
 ---
 
 Inspired by a few folks in the [32bit.cafe](https://32bit.cafe) Discord, I figured I’d make a riff on the App Defaults project by [Robb Knight](https://knight.me) and [Hemispheric Views](https://listen.hemisphericviews.com/097) - this time with **coffee.** 

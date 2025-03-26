@@ -3,6 +3,8 @@ title: The Hobby Collector - Star Wars
 description: Notes on collecting hobbies
 tags: ['hobbycollector']
 date: 2024-05-04
+permalink: posts/the-hobby-collector-star-wars/
+layout: layouts/post.njk
 ---
 
 ![](https://mymodernmet.com/wp/wp-content/uploads/2020/10/altered-thrift-store-paintings-6.jpg)

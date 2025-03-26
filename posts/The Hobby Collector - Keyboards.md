@@ -3,9 +3,9 @@ title: The Hobby Collector - Keyboards
 description: Notes on collecting hobbies
 tags: ['hobbycollector']
 date: 2024-05-03
+permalink: posts/the-hobby-collector-keyboards/
+layout: layouts/post.njk
 ---
-
-![A yellow doggo playing tug with a keyboard on the beach](https://cdn.scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdXhNIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f169c0e42da03867514181b5cea83fbd583e8f3e/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/image.png)
 
 Like many folks I’ve come across on the web, I like to tinker. I like to tweak, refine, and update til my brain and wallet hurt. I also like to go clicky-clacky. To that end, I recently discovered the joys of *customizing* keyboards. Now as you read on, know that I am **very new** to this space and I’m not coming for anyone's preferences lol.  
   

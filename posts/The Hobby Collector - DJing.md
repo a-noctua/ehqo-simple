@@ -3,6 +3,8 @@ title: The Hobby Collector - DJing
 description: Notes on collecting hobbies.
 tags: ['hobbycollector']
 date: 2024-05-01
+permalink: posts/the-hobby-collector-djing/
+layout: layouts/post.njk
 ---
 ### 'Bro, I'm with the DJ.'
 
@@ -10,7 +12,7 @@ Everyone knows a guy who brought his guitar to college. You know, *that* guy. We
 
 What do you think of when you first think of a DJ? A radio host queuing up tracks on their Radio1 show? An OG scratching hip-hop backing tracks for Busta Rhymes? David Guetta [staring into oblivion](https://www.youredm.com/2014/07/30/david-guetta-takes-much-edm-tomorrowland/index.html) while "playing" at Tomorrowland?[^1] Or perhaps one of the new players like [Knock2 playing a packed club](https://youtu.be/T_z-CRc3UBM?t=803) with next-level lights and visuals (photosensitivity warning). Sorry in advance if you dated yourself in this process. I’m not particularly sure that I can fit into any of these categories, but I’d like to think I’m not too shabby after many years of practice. As you read on, I ask that you keep two things in mind: 1) I really don’t like talking about myself, so subsequent posts may be less ~ nostalgic ~ 2) I refuse to associate with the DJ stereotype[^2] that you might have thought of earlier, so please try to keep that image out of your head. 
 
-![DJ Luigi in The House](https://cdn.scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzVKIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d90db648490ced1ecf5d5aa1e7eff580b4b68cf8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/image.png) 
+![DJ Luigi in The House]() 
 
 I can still remember the day I discovered a love for electronic music. I was in my early teens, visiting family in another state. We popped into Target and there I saw a CD with a neon green mouse head and the title "4×4=12". The album opens with "[Some Chords](https://www.youtube.com/watch?v=MEQMkzjcLEA)" - a track with alot more than just ‘some’ chords. The awe I experienced while listening to it for the first time cannot be overstated.[^3] After that, I was hooked. 
 
